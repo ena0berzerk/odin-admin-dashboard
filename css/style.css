@@ -204,7 +204,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 1fr;
   background-color: #e2e8f0;
-  padding: 24px 28px;
+  padding: 24px 42px;
 }
 .main svg {
   width: 24px;
@@ -275,6 +275,8 @@ a {
   background-color: #fff;
   padding: 12px 32px;
   border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .main .right-main-block .announcements .announcements-block .anno-wrapper {
   border-bottom: 1px solid #d4d4d4;
@@ -296,6 +298,8 @@ a {
   background-color: #fff;
   padding: 28px 24px;
   border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .main .trending .trending-block p {
   font-size: 14px;
@@ -320,4 +324,7 @@ a {
   display: inline-block;
   border-radius: 50%;
   background-color: #facc15;
+}
+.main .trending .trending-block .trending-wrapper span {
+  color: #111;
 }

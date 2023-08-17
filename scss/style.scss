@@ -207,7 +207,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 1fr;
   background-color: #e2e8f0;
-  padding: 24px 28px;
+  padding: 24px 42px;
 
   & svg {
     @include svg;
@@ -265,6 +265,7 @@ a {
         background-color: #fff;
         padding: 12px 32px;
         border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         & .anno-wrapper {
           border-bottom: 1px solid #d4d4d4;
           padding: 16px 0px;
@@ -291,6 +292,7 @@ a {
       background-color: #fff;
       padding: 28px 24px;
       border-radius: 12px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       & p {
         font-size: 14px;
         color: #979797;
@@ -308,6 +310,9 @@ a {
           height: 38px;
           display: inline-block;
           @include circle-img;
+        }
+        & span {
+          color: #111;
         }
       }
     }
