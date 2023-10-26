@@ -7,4 +7,4 @@
 
 ## Description
 
-Dashboard with 
+Just dashboard
